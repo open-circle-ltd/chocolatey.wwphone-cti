@@ -10,7 +10,7 @@ $packageArgs = @{
   url           = $urlPackage
   softwareName  = 'cti*'
   checksum      = $checksumPackage
-  checksumType  = 'sha256'
+  checksumType  = 'sha512'
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 

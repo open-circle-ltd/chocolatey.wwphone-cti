@@ -12,7 +12,7 @@ choco install wwphone
 
 ## Author
 
-- Benaiah Matthew Catherasoo
+- [Benaiah Matthew Catherasoo](https://github.com/bmcatherasoo)
 - [Open Circle AG](https://www.open-circle.ch)
 
 
