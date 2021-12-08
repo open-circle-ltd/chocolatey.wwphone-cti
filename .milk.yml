@@ -6,7 +6,7 @@ changelog: "https://raw.githubusercontent.com/open-circle-ltd/chocolatey.version
 
 # Regex for Version
 version: "{{ register_changelog.content |
-  regex_search('\\d+.\\d+.\\d+_\\d+\\b')
+  regex_search('\\d+.\\d+.\\d+\\b')
   }}"
 
 # Download URL
