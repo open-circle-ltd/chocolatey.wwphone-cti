@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wwphone.cti</id>
+    <version>3.4.10</version>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone</packageSourceUrl>
+    <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
+    <title>wwphone CTI-Client</title>
+    <authors>wwcom</authors>
+    <projectUrl>https://www.wwcom.ch/</projectUrl>
+    <iconUrl>https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/f7/a1/c1/f7a1c14b-3c79-b0b3-b56f-a53a8d5dc334/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.jpg</iconUrl>
+    <copyright>2021 © wwcom</copyright>
+    <licenseUrl>https://www.wwcom.ch/home/disclaimer</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://wiki.wwcom.ch/display/WPW/Downloads</projectSourceUrl>
+    <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
+    <tags>wwphone Softphone wwcom</tags>
+    <summary>wwphone CTI-Client</summary>
+    <description>wwphone is a Softphone Solution from wwcom, this is the CTI-Client</description>
+    <releaseNotes>https://wiki.wwcom.ch/display/WPW/wwphone+Windows-Versionen</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
