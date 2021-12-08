@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wwphone.cti</id>
-    <version>3.4.09</version>
+    <version>3.4.10</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
@@ -16,17 +16,7 @@
     <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
     <tags>wwphone Softphone wwcom</tags>
     <summary>wwphone CTI-Client</summary>
-    <description>## Installation
-
-```ps1
-choco install wwphone
-```
-
-## Author
-
-- Benaiah Matthew Catherasoo
-- [Open Circle AG](https://www.open-circle.ch)
-
+    <description>wwphone is a Softphone Solution from wwcom, this is the CTI-Client
 </description>
     <releaseNotes>https://wiki.wwcom.ch/display/WPW/wwphone+Windows-Versionen</releaseNotes>
   </metadata>
