@@ -10,7 +10,6 @@ wwphone is a Softphone Solution from wwcom, this is the CTI-Client
 choco install wwphone
 ```
 
-
 ## Author
 
 - Benaiah Matthew Catherasoo
