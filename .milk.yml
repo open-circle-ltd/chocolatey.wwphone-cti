@@ -2,11 +2,12 @@
 # chocomilk vars
 
 # Package Changelog
-changelog: "https://raw.githubusercontent.com/open-circle-ltd/chocolatey.version/master/wwphone-cti.json"
+changelog: "https://release-monitoring.org/api/v2/projects/?name=wwphone%20for%20Windows"
 
 # Regex for Version
 version: "{{ register_changelog.content |
-  regex_search('([0-9]+.[0-9]+.[0-9]+)')
+  regex_search('([0-9]+_[0-9]+_[0-9]+)') | 
+  regex_replace('_', '.')
   }}"
 
 # Download URL
