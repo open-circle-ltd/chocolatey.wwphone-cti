@@ -7,7 +7,7 @@ wwphone is a Softphone Solution from wwcom, this is the CTI-Client
 ## Installation
 
 ```ps1
-choco install wwphone
+choco install wwphone-cti
 ```
 
 ## Author
