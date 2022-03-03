@@ -10,7 +10,7 @@ version: "{{ register_changelog.content |
   }}"
 
 # Download URL
-url: "https://wwcom.ch/downloads/cti_{{ version | replace('.', '_') }}.exe"
+url: "https://wwcom.ch/downloads/cti_{{ version | replace('\\.', '_') }}.exe"
 
 searchreplace:
   "tools/chocolateyinstall.ps1":
