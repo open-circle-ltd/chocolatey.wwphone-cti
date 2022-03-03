@@ -6,8 +6,7 @@ changelog: "https://release-monitoring.org/api/v2/projects/?name=wwphone%20for%2
 
 # Regex for Version
 version: "{{ register_changelog.content |
-  regex_search('([0-9]+_[0-9]+_[0-9]+)') | 
-  regex_replace('_', '.')
+  regex_search('([0-9]+.[0-9]+.[0-9]+)')
   }}"
 
 # Download URL
