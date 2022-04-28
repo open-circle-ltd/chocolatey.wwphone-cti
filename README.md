@@ -18,4 +18,4 @@ choco install wwphone-cti
 
 ## Copyright
 
-(c) 2022, Open Circle AG
+&copy; 2022, Open Circle AG

@@ -4,12 +4,12 @@
     <id>wwphone-cti</id>
     <version>3.4.10</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
-    <owners>bmcatherasoo, Open Circle AG</owners>
+    <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
     <authors>wwcom</authors>
     <projectUrl>https://www.wwcom.ch/</projectUrl>
-    <iconUrl>https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/f7/a1/c1/f7a1c14b-3c79-b0b3-b56f-a53a8d5dc334/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.jpg</iconUrl>
-    <copyright>2022 © wwcom</copyright>
+    <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.wwphone-cti@master/icon/wwphone_icon.jpg</iconUrl>
+    <copyright>2022 wwcom</copyright>
     <licenseUrl>https://www.wwcom.ch/agb.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>

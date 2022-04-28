@@ -2,15 +2,16 @@
 # chocomilk vars
 
 # Package Changelog
-changelog: "https://release-monitoring.org/api/v2/projects/?name=wwphone%20for%20Windows"
+changelog: "https://release-monitoring.org/api/v2/projects/?name=wwcom"
 
 # Regex for Version
 version: "{{ register_changelog.content |
-  regex_search('([0-9].[0-9]+.[0-9]+)')
+  regex_search('[0-9]+_[0-9]+_[0-9]+') |
+  regex_replace('[-|_]', '.') 
   }}"
 
 # Download URL
-url: "https://wwcom.ch/downloads/cti_{{ version | replace('\\.', '_') }}.exe"
+url: "https://wwcom.ch/downloads/cti_{{ version | regex_replace('[.]', '_') }}.exe"
 
 searchreplace:
   "tools/chocolateyinstall.ps1":
