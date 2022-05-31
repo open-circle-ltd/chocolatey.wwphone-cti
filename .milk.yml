@@ -2,7 +2,7 @@
 # chocomilk vars
 
 # Package Changelog
-changelog: "https://release-monitoring.org/api/v2/projects/?name=wwcom"
+changelog: "https://release-monitoring.org/api/v2/projects/?name=wwphone"
 
 # Regex for Version
 version: "{{ register_changelog.content |
