@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wwphone-cti</id>
-    <version>4.0.8</version>
+    <version>4.0.12</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
@@ -15,24 +15,8 @@
     <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
     <tags>wwphone Softphone wwcom</tags>
     <summary>wwphone whitelabel client</summary>
-    <description><![CDATA[Whitelabel version of the wwphone Softphone Solution from wwcom
-## Description
-The wwphone (Whitelabel versin) can be operated either as a standalone software solution or in conjunction with a hardphone. It is not a normal softphone: it has been specifically tuned to the wwcommunicator and, thanks to its own interfaces, it has a range of functions that would not be possible with the normal connection of a SIP softphone to a SIP PBX.
-
-## Functions:
-
-- Call transfer: allows switching between two active calls.
-- Conference call with up to eight participants.
-- TAPI (Telephony Application Programming Interface) connects to Outlook, industry software, etc.
-- Call handling - incoming calls are displayed directly on the computer with caller information based on the stored address book.
-- Access to the central address book of the wwcommunicator.
-- Taking notes during a call.
-- Recording conversations with the push of a button.
-- Forwarding caller information by email.
-- Task list for missed calls.
-- Outgoing calls can be initiated directly from the computer. Outgoing number display is selectable (e.g. use the main number for certain contacts or suppress the number).
-- Display of online and busy status of employees.
-]]></description>
+    <description>## Description
+</description>
     <releaseNotes>https://wiki.wwcom.ch/display/WPW/wwphone+Windows-Versionen</releaseNotes>
   </metadata>
   <files>
