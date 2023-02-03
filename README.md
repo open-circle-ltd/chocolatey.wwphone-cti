@@ -2,7 +2,7 @@
 
 [![Chocolatey](https://img.shields.io/chocolatey/v/wwphone-cti?label=package%20version)](https://community.chocolatey.org/packages/wwphone-cti) [![Chocolatey](https://img.shields.io/chocolatey/dt/wwphone-cti?label=package%20downloads&style=flat-square)](https://community.chocolatey.org/packages/wwphone-cti)
 
-wwphone-cti is a whitelaber Softphone Solution from wwcom
+wwphone-cti is a whitelabel Softphone Solution from wwcom
 
 ## Description
 
