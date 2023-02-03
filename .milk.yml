@@ -22,7 +22,7 @@ searchreplace:
 
 # readme to description
 readme:
-  start: 7
+  start: 6
   end: 27
 
 # deploy
