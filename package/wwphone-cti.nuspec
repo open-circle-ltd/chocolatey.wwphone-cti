@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wwphone-cti</id>
-    <version>4.0.13</version>
+    <version>4.0.14</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
@@ -15,8 +15,14 @@
     <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
     <tags>wwphone Softphone wwcom</tags>
     <summary>wwphone whitelabel client</summary>
-    <description>
+    <description>wwphone-cti is a whitelaber Softphone Solution from wwcom
+
+## Description
+
+The wwphone client (Whitelabel version) can be operated either as a standalone software solution or in conjunction with a hardphone. It is not a normal softphone: it has been specifically tuned to the wwcommunicator and, thanks to its own interfaces, it has a range of functions that would not be possible with the normal connection of a SIP softphone to a SIP PBX.
+
 ## Functions:
+
 - Call transfer: allows switching between two active calls.
 - Conference call with up to eight participants.
 - TAPI (Telephony Application Programming Interface) connects to Outlook, industry software, etc.
