@@ -2,11 +2,14 @@
 
 [![Chocolatey](https://img.shields.io/chocolatey/v/wwphone-cti?label=package%20version)](https://community.chocolatey.org/packages/wwphone-cti) [![Chocolatey](https://img.shields.io/chocolatey/dt/wwphone-cti?label=package%20downloads&style=flat-square)](https://community.chocolatey.org/packages/wwphone-cti)
 
+wwphone-cti is a whitelaber Softphone Solution from wwcom
+
 ## Description
 
 The wwphone client (Whitelabel version) can be operated either as a standalone software solution or in conjunction with a hardphone. It is not a normal softphone: it has been specifically tuned to the wwcommunicator and, thanks to its own interfaces, it has a range of functions that would not be possible with the normal connection of a SIP softphone to a SIP PBX.
 
 ## Functions:
+
 - Call transfer: allows switching between two active calls.
 - Conference call with up to eight participants.
 - TAPI (Telephony Application Programming Interface) connects to Outlook, industry software, etc.
