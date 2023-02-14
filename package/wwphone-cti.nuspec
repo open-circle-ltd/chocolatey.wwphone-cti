@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wwphone-cti</id>
-    <version>4.0.14</version>
+    <version>4.0.20</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
@@ -15,7 +15,7 @@
     <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
     <tags>wwphone Softphone wwcom</tags>
     <summary>wwphone whitelabel client</summary>
-    <description>wwphone-cti is a whitelaber Softphone Solution from wwcom
+    <description>wwphone-cti is a whitelabel Softphone Solution from wwcom
 
 ## Description
 
