@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wwphone-cti</id>
-    <version>4.0.27</version>
+    <version>4.0.29</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
