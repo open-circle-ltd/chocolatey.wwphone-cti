@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$urlPackage = 'https://wwcom.ch/downloads/cti_4_0_32.exe' 
-$checksumPackage = 'b6ee88ea281becfdb044fa0eca5593ab1ce8b2f5f5669bac77014afcd6bac45c8bf34e320b0c3f64452ca4ed99b6fb883ba9612991114ddccd8a24feedb707e7'
+$urlPackage = 'https://wwcom.ch/downloads/cti_4_0_33.exe' 
+$checksumPackage = '99943c2d2d2175410cf8373769f0514f5eb0be530dc5ad3c0fcbf0600826c030b0cb465e017e6c23c35dda034917e731eefe885a5907094998ea7a024b5354e9'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
