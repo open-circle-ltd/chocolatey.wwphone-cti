@@ -8,11 +8,12 @@
     <title>wwphone CTI-Client</title>
     <authors>wwcom</authors>
     <projectUrl>https://www.wwcom.ch/</projectUrl>
+    <projectSourceUrl>https://www.wwcom.ch/</projectSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.wwphone-cti@master/icon/wwphone_icon.jpg</iconUrl>
     <copyright>2022 wwcom</copyright>
     <licenseUrl>https://www.wwcom.ch/agb.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
+    <docsUrl>https://doku.wwcom.ch/</docsUrl>
     <tags>wwphone Softphone wwcom</tags>
     <summary>wwphone whitelabel client</summary>
     <description>wwphone-cti is a whitelabel Softphone Solution from wwcom
