@@ -9,6 +9,7 @@
     <authors>wwcom</authors>
     <projectUrl>https://www.wwcom.ch/</projectUrl>
     <projectSourceUrl>https://doku.wwcom.ch/books/downloads/page/wwcom-software</projectSourceUrl>
+    <releaseNotes>https://doku.wwcom.ch/books/versions-info/page/wwphone-ab-version-400</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.wwphone-cti@master/icon/wwphone_icon.jpg</iconUrl>
     <copyright>2022 wwcom</copyright>
     <licenseUrl>https://www.wwcom.ch/agb.pdf</licenseUrl>
@@ -42,7 +43,6 @@ The wwphone client (Whitelabel version) can be operated either as a standalone s
 choco install wwphone-cti
 ```
 </description>
-    <releaseNotes>https://wiki.wwcom.ch/display/WPW/wwphone+Windows-Versionen</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools"/>
