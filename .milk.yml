@@ -2,13 +2,10 @@
 # chocomilk vars
 
 # Package Changelog
-changelog: "https://release-monitoring.org/api/v2/projects/?name=wwphone"
+changelog: "https://release-monitoring.org/api/v2/versions/?project_id=242738"
 
 # Regex for Version
-version: "{{ register_changelog.content |
-  regex_search('[0-9]+_[0-9]+_[0-9]+') |
-  regex_replace('[-|_]', '.') 
-  }}"
+version: "{{ register_changelog.json['latest_version'] }}"
 
 # Download URL
 url: "https://wwcom.ch/downloads/cti_{{ version | regex_replace('[.]', '_') }}.exe"
