@@ -11,7 +11,8 @@ $packageArgs = @{
   softwareName  = 'cti*'
   checksum      = $checksumPackage
   checksumType  = 'sha512'
-  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' + 
+  " /L*v `"$env:TEMP\$env:ChocolateyPackageName.$env:ChocolateyPackageVersion.Install.log`""
 }
 
 Install-ChocolateyPackage @packageArgs
