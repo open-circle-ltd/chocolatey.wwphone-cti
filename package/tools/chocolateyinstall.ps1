@@ -12,7 +12,7 @@ $packageArgs = @{
   checksum      = $checksumPackage
   checksumType  = 'sha512'
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' + 
-  " /L*v `"$env:TEMP\$env:ChocolateyPackageName.$env:ChocolateyPackageVersion.Install.log`""
+  " /Log=`"$env:TEMP\$env:ChocolateyPackageName.$env:ChocolateyPackageVersion.Install.log`""
 }
 
 Install-ChocolateyPackage @packageArgs
