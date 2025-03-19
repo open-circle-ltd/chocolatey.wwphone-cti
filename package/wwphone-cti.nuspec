@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wwphone-cti</id>
-    <version>4.1.3</version>
+    <version>4.1.4</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone.cti</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone CTI-Client</title>
@@ -42,9 +42,9 @@ The wwphone client (Whitelabel version) can be operated either as a standalone s
 ```ps1
 choco install wwphone-cti
 ```
-    </description>
+</description>
     <dependencies>
-      <dependency id="vcredist140" />
+      <dependency id="vcredist140"/>
     </dependencies>
   </metadata>
   <files>
