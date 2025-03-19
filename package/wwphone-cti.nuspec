@@ -42,7 +42,10 @@ The wwphone client (Whitelabel version) can be operated either as a standalone s
 ```ps1
 choco install wwphone-cti
 ```
-</description>
+    </description>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools"/>
