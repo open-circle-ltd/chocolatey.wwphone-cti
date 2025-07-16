@@ -1,4 +1,4 @@
-﻿# Chocolatey Package: wwphone Client (Whitelabel)
+# Chocolatey Package: wwphone Client (Whitelabel)
 
 [![Chocolatey](https://img.shields.io/chocolatey/v/wwphone-cti?label=package%20version)](https://community.chocolatey.org/packages/wwphone-cti) [![Chocolatey](https://img.shields.io/chocolatey/dt/wwphone-cti?label=package%20downloads&style=flat-square)](https://community.chocolatey.org/packages/wwphone-cti)
 
@@ -24,8 +24,14 @@ The wwphone client (Whitelabel version) can be operated either as a standalone s
 
 ## Installation
 
+For 64-bit Version
 ```ps1
 choco install wwphone-cti
+```
+
+For 32-bit Version:
+```ps1
+choco install wwphone-cti --params="'/32bit'"
 ```
 
 ## Author
