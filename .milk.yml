@@ -3,24 +3,31 @@
 
 # Package Changelog
 changelog: "https://release-monitoring.org/api/v2/versions/?project_id=242738"
+changelog_format: json
 
 # Regex for Version
 version: "{{ register_changelog.json['latest_version'] }}"
 
 # Download URL
 url: "https://wwcom.ch/downloads/cti_{{ version | regex_replace('[.]', '_') }}.exe"
+url64: "https://wwcom.ch/downloads/cti64_{{ version | regex_replace('[.]', '_') }}.exe"
 
 searchreplace:
   "tools/chocolateyinstall.ps1":
-    - regwxp: (^\s*[$]*urlPackage\s*=\s*)('.*')
-      replace: "$urlPackage = '{{ url }}'"
-    - regwxp: (^\s*[$]*checksumPackage\s*=\s*)('.*')
-      replace: "$checksumPackage = '{{ file_hash }}'"
+    - regwxp: (^\s*[$]*url\s*=\s*)('.*')
+      replace: "$url = '{{ url }}'"
+    - regwxp: (^\s*[$]*checksum\s*=\s*)('.*')
+      replace: "$checksum = '{{ file_hash }}'"
+
+    - regwxp: (^\s*[$]*url64\s*=\s*)('.*')
+      replace: "$url64 = '{{ url64 }}'"
+    - regwxp: (^\s*[$]*checksum64\s*=\s*)('.*')
+      replace: "$checksum64 = '{{ file64_hash }}'"
 
 # readme to description
 readme:
   start: 4
-  end: 30
+  end: 36
 
 # deploy
 deploy:

@@ -39,8 +39,14 @@ The wwphone client (Whitelabel version) can be operated either as a standalone s
 
 ## Installation
 
+For 64-bit Version
 ```ps1
 choco install wwphone-cti
+```
+
+For 32-bit Version:
+```ps1
+choco install wwphone-cti --params="'/32bit'"
 ```
 </description>
     <dependencies>
