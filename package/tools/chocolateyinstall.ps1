@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 $PackageParameters = Get-PackageParameters
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://wwcom.ch/downloads/cti_4_1_12.exe' 
-$url64 = 'https://wwcom.ch/downloads/cti64_4_1_12.exe'
-$checksum = '05c41e7020a30d26885c29c99f04c55f33a5732ea8f992f7de2248911bb3baf612a52028a6c158abe1d974743bf1b817bde005857a16ea113c5df1c6130b0ac8'
-$checksum64 = '58b633a8b5570756d5c03772d49fc34591f847e2aa662df088389ea4015ae47f2620924fca165b562605d9aa7acf3c1861d4e0a4a26e1dec96c11049026b6fcb'
+$url = 'https://wwcom.ch/downloads/cti_4_1_13.exe' 
+$url64 = 'https://wwcom.ch/downloads/cti64_4_1_13.exe'
+$checksum = 'dc1ed882d08300d0f22cc8743cd1993de9a3be5e9a5e3cb4659064c8d5cad3a781e6097a432741bbe3b3547e1ae0b8495c5584dad39a2d5ea579701758a482c9'
+$checksum64 = '54dd48f03ee0fa9cce67523464f35ec1a9178eb8de23f114dc7589ee517e9f22b219b4594f5d90878f39647dd618dba31dd10a692562527fbc410d50cf917759'
 
 # Prep 32bit install
 $32bit = $false
