@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 $PackageParameters = Get-PackageParameters
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://wwcom.ch/downloads/cti_4_1_13.exe' 
-$url64 = 'https://wwcom.ch/downloads/cti64_4_1_13.exe'
-$checksum = 'dc1ed882d08300d0f22cc8743cd1993de9a3be5e9a5e3cb4659064c8d5cad3a781e6097a432741bbe3b3547e1ae0b8495c5584dad39a2d5ea579701758a482c9'
-$checksum64 = '54dd48f03ee0fa9cce67523464f35ec1a9178eb8de23f114dc7589ee517e9f22b219b4594f5d90878f39647dd618dba31dd10a692562527fbc410d50cf917759'
+$url = 'https://wwcom.ch/downloads/test/cti_4_2_6.exe' 
+$url64 = 'https://wwcom.ch/downloads/test/cti64_4_2_6.exe'
+$checksum = 'e0fc651ffdf70da83d1cf622d36a7db0ac8adf0326ee4631eb946381035b40ad34bd4f00e701114a646a18e96c4a1dbe1c864c4d016f0e7699a5eb2328979a94'
+$checksum64 = 'a5d950923302b153622dc24721f430c15d013e0a5e20629c4c7cbd6f9c15a387057e46d412e3170184387ffc0a023de5f46e64c7ed092096c8b5fb8ceacee20f'
 
 # Prep 32bit install
 $32bit = $false
@@ -23,7 +23,7 @@ $packageArgs64 = @{
   softwareName  = 'cti*'
   checksum      = $checksum64
   checksumType  = 'sha512'
-  silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' + 
+  silentArgs    = '/MOVEEXISTING /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /NOCLOSEAPPLICATIONS /SP-' + 
   " /Log=`"$env:TEMP\$env:ChocolateyPackageName.$env:ChocolateyPackageVersion.Install.log`""
 }
 
@@ -36,7 +36,7 @@ $packageArgs32 = @{
   softwareName  = 'cti*'
   checksum      = $checksum
   checksumType  = 'sha512'
-  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' + 
+  silentArgs    = '/MOVEEXISTING /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /NOCLOSEAPPLICATIONS /SP-' + 
   " /Log=`"$env:TEMP\$env:ChocolateyPackageName.$env:ChocolateyPackageVersion.Install.log`""
 }
 
