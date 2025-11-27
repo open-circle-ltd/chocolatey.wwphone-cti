@@ -41,4 +41,4 @@ choco install wwphone-cti --params="'/32bit'"
 
 ## Copyright
 
-&copy; 2023, Open Circle AG
+&copy; 2025, Open Circle AG
